@@ -31,6 +31,14 @@ body {
     margin: 0 auto;
 }
 
+@font-face {
+    font-family: 'yellowtailregular';
+    src: local("Yellowtail-Regular"),
+    url("../fonts/Yellowtail-Regular-webfont.woff") format('woff');         
+    font-weight: normal;
+    font-style: normal;
+}
+
 /*header*/
 
 .header {
@@ -101,6 +109,7 @@ body {
     font-weight: 400;
     font-size: 36px;
     line-height: 65px;
+    font-family: "yellowtailregular", sans-serif;
 }
 
 .hero-title {
@@ -148,6 +157,7 @@ body {
 
 .ad-block-title-preview-1 {
     padding: 105px 484px 4px 55px;
+    font-family: "yellowtailregular", sans-serif;
     font-weight: 400;
     font-size: 36px;
     line-height: 65px;
@@ -174,6 +184,7 @@ body {
 
 .ad-block-title-preview-2 {
     padding: 105px 509px 4px 55px;
+    font-family: "yellowtailregular", sans-serif;
     font-weight: 400;
     font-size: 36px;
     line-height: 65px;
@@ -200,6 +211,7 @@ body {
 
 .about-us-preview {
     color: #7EB693;
+    font-family: "yellowtailregular", sans-serif;
     font-weight: 400;
     font-size: 36px;
     line-height: 65px;
@@ -280,6 +292,7 @@ body {
     color: #7EB693;
     font-weight: 400;
     font-size: 36px;
+    font-family: "yellowtailregular", sans-serif;
 }
 
 .product-section-title {
@@ -409,6 +422,7 @@ body {
     font-weight: 400;
     font-size: 36px;
     line-height: 65px;
+    font-family: "yellowtailregular", sans-serif;
 }
 
 .testi-title {
@@ -537,6 +551,7 @@ body {
     font-weight: 400;
     font-size: 36px;
     line-height: 65px;
+    font-family: "yellowtailregular", sans-serif;
 }
 
 .product-offer-title {
@@ -578,6 +593,7 @@ body {
     font-weight: 400;
     font-size: 36px;
     line-height: 65px;
+    font-family: "yellowtailregular", sans-serif;
 }
 
 .eco-friendly-title { 
@@ -683,6 +699,7 @@ body {
     font-weight: 400;
     font-size: 35px;
     line-height: 65px;
+    font-family: "yellowtailregular", sans-serif;
 }
 .news-header-title{
     color: #274C5B;
@@ -847,4 +864,140 @@ body {
 
 *:focus {
     outline: none;
+}
+
+/*footer*/ 
+
+.footer-contant-items {
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-contact {
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 35px;
+    background-image: url("../images/vertical-line.svg");
+    background-repeat: no-repeat;
+    background-position: 15.2rem;
+}
+
+.footer-contanct-item {
+    flex-direction: column;    
+    align-items: flex-end;
+}
+
+.footer-contact-items {
+    flex-direction: column;
+}
+
+.footer-social-items {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.footer-copyrights {
+    flex-direction: row;
+}
+
+.footer-contact-title {
+    color: #274C5B;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 42px;    
+    margin-bottom: 35px;
+}
+
+.contact-item-title {
+    color: #525C60;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.contact-item-descr {
+    color: #525C60;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    margin-bottom: 40px;
+}
+
+.footer-social-descr {
+    color: #525C60;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 55px;
+    text-align: center;
+}
+
+.footer-social-net:not(:last-child) {
+    margin-right: 20px;
+}
+
+.footer-social-logo {
+    margin-bottom: 44px;
+}
+
+.footer-pages-title {
+    color: #274C5B;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 42px;
+    margin-bottom: 35px;
+    padding-left: 20px;
+}
+
+.footer-pages-item {
+    color: #525C60;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    padding-left: 20px;
+}
+
+.footer-pages-item:not(:last-child) {
+    margin-bottom: 24px;
+}
+
+.footer-pages {
+    background-image: url("../images/vertical-line.svg");
+    background-repeat: no-repeat;
+    background-position: 0.5rem;
+}
+
+.footer-copyrights {
+    color: #274C5B;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    margin-top: 100px;
+    padding-top: 39px;
+    padding-bottom: 15px;
+    justify-content: center;
+    background-image: url("../images/footer-long-line.svg");
+    background-repeat: no-repeat;
+    background-position:top;
+}
+
+.footer-contant-items {
+    justify-content:center;
+}
+
+.footer-pages-item:hover {
+    color: #7EB693;
+    transition: 0.3s;
+    cursor: pointer;
+} 
+
+.footer-social-net {
+    cursor: pointer;
+}
+
+.news-card-more:hover {
+    color: #7EB693;
+    transition: 0.3s;
+    cursor: pointer;
 }
